@@ -13,3 +13,5 @@ Supported Devices
 8. SiFive FE310
 9. Teensy 4.x
 10. Teensy LC
+
+Although the system will probably work in any bare metal C environment.
