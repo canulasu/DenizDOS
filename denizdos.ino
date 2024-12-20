@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 void setup() {
   Serial.begin(9600);
   Serial.println("DenizDOS v 0.0.1");
@@ -89,6 +93,11 @@ void loop() {
     String add2 = Serial.readStringUntil('\n');
     Serial.println('Entered');
     Serial.println(add1.toInt()/add2.toInt());
+  }
+
+  if (command == "random") {
+    int randomint = rand();
+    Serial.println(randomint);
   }
 
 }
