@@ -100,4 +100,27 @@ void loop() {
     Serial.println(randomint);
   }
 
+  if (command == "memory") {
+    Serial.print("option>>> ");
+    while (Serial.available() == 0) {
+    }
+    String option = Serial.readStringUntil('\n');
+    Serial.println(option);
+
+    if (option == "memory1") {
+      memory1();
+    }
+    if (option == "memory2") {
+      memory2();
+    }
+    if (option == "memory3") {
+      memory3();
+    }
+    if (option == "memory4") {
+      memory4();
+    }
+    if (option == "memory5") {
+      memory5();
+    }
+  }
 }
