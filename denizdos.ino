@@ -92,7 +92,7 @@ void loop() {
     }
     String add2 = Serial.readStringUntil('\n');
     Serial.println('Entered');
-    Serial.println(add1.toInt()/add2.toInt());
+    Serial.println(add1.toInt()-add2.toInt());
   }
 
   if (command == "random") {
