@@ -1,5 +1,5 @@
 # DenizDOS
-DenizDOS is a free and open source operating system that is a part of the Deniz Open Source Software/Operating System Project. Currtly, the operating system is supported on many microcontrollers and can run as a bare metal C operating system.
+DenizDOS is a free and open source operating system that is a part of the Deniz Open Source Software/Operating System Project. Currently, the operating system is supported on many microcontrollers and can run as a bare metal C operating system.
 
 Supported Devices
 
