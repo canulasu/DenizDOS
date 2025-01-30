@@ -4,7 +4,7 @@
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("DenizDOS v 0.0.1");
+  Serial.println("DenizDOS v 0.0.2");
   Serial.println("Copyright (c) 2024 Deniz canulasu");
   Serial.println(" ");
 }
@@ -24,7 +24,7 @@ void loop() {
   }
 
   if (command == "whoami") {
-    Serial.println("DenizDOS v 0.0.1");
+    Serial.println("DenizDOS v 0.0.2");
   }
 
   if (command == "exit") {
@@ -36,7 +36,7 @@ void loop() {
     Serial.println("DenizDOS Command Center");
     Serial.println("add, subtract, multiply");
     Serial.println("divide, pwd, whoami");
-    Serial.println("exit, help");
+    Serial.println("exit, help, memory");
   }
 
   if (command == "add") {
