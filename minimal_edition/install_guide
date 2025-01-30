@@ -1,7 +1,0 @@
-Minimal Edition Install Guide
-
-Scan QR code or use tool to extract contents:
-
-zbarimg image.pmg > scanned_output.txt
-
-cut -d ':' -f 2- scanned_output.txt > restored_main.ino
